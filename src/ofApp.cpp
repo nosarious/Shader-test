@@ -1,5 +1,9 @@
 #include "ofApp.h"
 
+// this code uses two cycling openGL shaders which contain rudimentary perlin noise
+// based off of the time code sent to each shader.
+//they are intended as a test of samples found on shadertoy.com
+
 #define STRINGIFY(A) #A
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -7,6 +11,9 @@ void ofApp::setup(){
     
     ofSetLogLevel(OF_LOG_VERBOSE);
     
+    
+    // shader based off of example from shadertoy that uses
+    // information from Ashima: https://github.com/ashima/webgl-noise
     string reactionProgram = STRINGIFY(
                                        
                                        uniform float iGlobalTime;
@@ -181,6 +188,8 @@ void ofApp::setup(){
     
     reaction.setupShaderFromSource(GL_FRAGMENT_SHADER, reactionProgram);
     reaction.linkProgram();
+    
+    // based on Xor-blobs example from https://www.shadertoy.com/view/lls3zs
     
     string xOrBlobsProgram = STRINGIFY(
                                        

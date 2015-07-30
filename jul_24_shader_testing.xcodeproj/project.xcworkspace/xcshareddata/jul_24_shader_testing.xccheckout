@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7A288B3A-71BE-4405-8685-179EA4557CDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jul_24_shader_testing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>311328D2F0EF7884725C237257B60F634AD2A497</key>
+		<string>https://github.com/nosarious/Shader-test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jul_24_shader_testing.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>311328D2F0EF7884725C237257B60F634AD2A497</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nosarious/Shader-test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>311328D2F0EF7884725C237257B60F634AD2A497</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>311328D2F0EF7884725C237257B60F634AD2A497</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Shader-test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
