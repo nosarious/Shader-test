@@ -241,6 +241,8 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
+    
+    //pass variables and draw first shader
     reaction.begin();
         reaction.setUniform3f("iResolution", ofGetWidth()/2, ofGetHeight()/2, 0.0);
         reaction.setUniform1f("iGlobalTime", ofGetElapsedTimef());
@@ -248,8 +250,11 @@ void ofApp::draw(){
         ofRect(0,0,ofGetWidth()/2,ofGetHeight());
     reaction.end();
   
+    
+    //move origin and draw second shader
     ofPushMatrix();
         ofTranslate(ofGetWidth()/2,0);
+        //pass variables and draw second shader
         xOrBlobs.begin();
             xOrBlobs.setUniform3f("iResolution", ofGetWidth()/2, ofGetHeight()/2, 0.0);
             xOrBlobs.setUniform1f("iGlobalTime", ofGetElapsedTimef()*10);
